@@ -1,0 +1,218 @@
+*{
+    padding: 3px;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.help1,.home,.aboutus,.mediaplatform,.attend{
+    margin-top: 20px;
+}
+.header{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+.footer{
+    height: 70px;
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid rgb(219, 215, 215);
+}
+.socialmedia{
+    height: 60px !important;
+    width: 200px;
+    cursor: pointer;
+}
+.heading{
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 8px 20px ;
+}
+.nav_links{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: 10px 2px 30px 0px rgba(0, 0, 0, 0.2);
+
+
+   
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    text-decoration: underline;
+   
+}
+/* home */
+ .head{
+    margin: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+ }
+img{
+    height: 300px !important;
+
+}
+h2{
+    padding-bottom:20px ;
+    letter-spacing: 1px;
+}
+.chuck,.tom,.scott,.team,.sponsor{
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(219, 215, 215);
+}
+.img{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    width: 70%;
+    letter-spacing: 1px;
+}
+.linkedin{
+    padding-top: 40px;
+}
+
+/* About us */
+.about_details{
+    width: 100%;
+    margin: 20px;
+}
+/* apply to present */
+.applytp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+.applyhead{
+    text-decoration: underline;
+}
+.applydetail{
+    margin-top: 30px;
+}
+button{
+    margin-top: 30px;
+    /* border: none; */
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+
+}
+button:hover{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.footer1{
+    margin-top: 200px;
+    height: 70px;
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+/* how we help */
+
+
+
+.helpdetail{
+    width: 100%;
+    margin-bottom: 30px;
+    
+}
+.help{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+}
+.helpcontent{
+    width: 90%;
+}
+li{
+    margin-bottom: 10px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+}
+.helplink{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(89, 87, 87);
+    padding-bottom: 7px;
+}
+.helplink:hover{
+    text-decoration: underline;
+}
+.feedback{
+    margin-right: 20px;
+}
+/* attendmeeting */
+
+.attend{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.attendmeeting{
+    width: 80%;
+}
+.meetinglink{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+/* media */
+.mediaplatform{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.media{
+    height: 200px !important;
+    width: 400px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.mediadetails{
+    width: 80%;
+    margin-top: 20px;
+
+}
