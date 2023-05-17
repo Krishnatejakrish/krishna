@@ -4,7 +4,7 @@ import chuck from "../assets/Chuck.png";
 import tom from "../assets/Tom.png";
 import scott from "../assets/Scott.png";
 import team from "../assets/Team.png";
-import sponsor from "../assets/Sponsors.png";
+import sponsor from "../assets/sponsors.png";
 import socialmedia from "../assets/SocialMediaIcons.png";
 // import {
 //   Instagram,
