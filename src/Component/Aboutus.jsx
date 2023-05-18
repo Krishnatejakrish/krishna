@@ -93,13 +93,13 @@ const Aboutus = () => {
           </p>
           <Link className="linkedin">ATTEND A FUTURE MEETING</Link>
         </div>
-        <div className="img">
+        <div className="img teamimg">
           <img src={team} alt="tom" />
         </div>
       </div>
       {/* sponsers */}
       <div className="sponsor">
-        <div className="img">
+        <div className="img sponsorimg">
           <img src={sponsor} alt="sponsor" />
         </div>
         <div className="details">
