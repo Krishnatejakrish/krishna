@@ -4,15 +4,8 @@ import chuck from "../assets/Chuck.png";
 import tom from "../assets/Tom.png";
 import scott from "../assets/Scott.png";
 import team from "../assets/Team.png";
-import sponsor from "../assets/Sponsors.png";
+import sponsor from "../assets/sponsors.png";
 import socialmedia from "../assets/SocialMediaIcons.png";
-// import {
-//   Instagram,
-//   Pinterest,
-//   Twitter,
-//   LinkedIn,
-//   Facebook,
-// } from '@mui/icons-material';
 
 const Aboutus = () => {
   return (
@@ -93,13 +86,13 @@ const Aboutus = () => {
           </p>
           <Link className="linkedin">ATTEND A FUTURE MEETING</Link>
         </div>
-        <div className="img">
+        <div className="img teamimg">
           <img src={team} alt="tom" />
         </div>
       </div>
       {/* sponsers */}
-      <div className="sponsor">
-        <div className="img">
+      <div className="sponsor sponsorimg">
+        <div className="img ">
           <img src={sponsor} alt="sponsor" />
         </div>
         <div className="details">
@@ -149,13 +142,10 @@ const Aboutus = () => {
       </div>
 
       <footer className="footer">
-       
         copyright &copy; 2023 the enterpreneural hour all rightgs reserved
-        
-       <div>
-       <img className="socialmedia" src={socialmedia} alt="social media"  />
-       </div>
-       
+        <div>
+          <img className="socialmedia" src={socialmedia} alt="social media" />
+        </div>
       </footer>
     </div>
   );

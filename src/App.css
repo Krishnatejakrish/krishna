@@ -33,7 +33,7 @@
     border: 2px solid black;
     padding: 8px 20px ;
 }
-.nav_links{
+.nav_links,.menu{
     width: 100%;
     height: 60px;
     display: flex;
@@ -42,9 +42,9 @@
     border-radius: 20px;
     font-size: 20px;
     box-shadow: 10px 2px 30px 0px rgba(0, 0, 0, 0.2);
-
-
-   
+}
+.menu{
+    list-style-type: none;
 }
 .link{
     text-decoration: none;
@@ -215,4 +215,98 @@ li{
     width: 80%;
     margin-top: 20px;
 
+}
+
+.hamburg{
+    display: none;
+}
+
+@media screen and (max-width:820px){
+    .header{
+        height: 75px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+    }
+    .nav_links{
+        box-shadow: none;
+    }
+    .menu{
+        display: none;
+        
+    }
+    .menumobile{
+        position: absolute;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        backdrop-filter: blur(5px);
+        right: 0;
+        top: 10px;
+        transition: all 0.5s ease-out;
+        height: 400px;
+        width: 200px;
+        padding: 20px;
+    }
+    li{
+        margin-bottom: 30px;
+    }
+    .hamburg{
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 4px;
+        height: 50px;
+        width: 50px;
+        border-radius: 20px;
+        background: none;
+        border: none;
+        /* box-shadow: 10px 2px 30px 0px rgba(0, 0, 0, 0.2); */
+        padding: 20px;
+    }
+    .hamburg:hover{
+        background-color: none !important;
+    }
+    .help1,.home,.aboutus,.mediaplatform,.attend{
+        margin-top: 0px;
+    }
+
+    /* home */
+    .chuck,.tom,.scott,.team,.sponsor{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid rgb(219, 215, 215);
+    }
+    .img{
+        height: 100%;
+        width: 100%;
+       padding: 4px;
+    }
+    .details{
+        width: 100%;
+        
+    }
+    p{
+        width: 100%;
+        letter-spacing: 1px;
+    }
+    .teamimg,.sponsorimg{
+        margin: 20px;
+    }
+
+    /* how we help */
+    .help{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 100%;
+    }
 }
