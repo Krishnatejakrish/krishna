@@ -24,7 +24,15 @@ function App() {
           <Route path="aameeting" element={<Attendameeting />} />
           <Route path="fmeetings" element={<Futuremeetings />} />
           <Route path="media" element={<Media />} />
+         
         </Routes>
+        {/* <Switch>
+
+         
+          <Route path="aameeting" element={<Attendameeting />} />
+          <Route path="fmeetings" element={<Futuremeetings />} />
+
+        </Switch> */}
       </BrowserRouter>
     </div>
   );

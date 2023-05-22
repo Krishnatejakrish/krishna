@@ -18,6 +18,8 @@ const Navbar = () => {
         {/* <li key='media'><Link className="link" to="media">Media</Link></li> */}
       </ul>
 
+     
+
       <button className='hamburg' onClick={() => setIsMobile(!isMobile)}>
         {isMobile ?
           <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40">

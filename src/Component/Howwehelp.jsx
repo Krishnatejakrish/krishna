@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import feedback from '../assets/Feedback.png'
 import socialmedia from "../assets/SocialMediaIcons.png";
 const Howwehelp = () => {
@@ -61,9 +61,11 @@ const Howwehelp = () => {
           We hope to see you Wednesday @ 8AM EST for The Entrepreneurial Hour!
         </p>
         <div className="links">
-          <a href="aameeting" className="helplink">ATTEND A MEETING</a>
+          {/* <a href="./aameeting" className="helplink">ATTEND A MEETING</a> */}
+          <Link to='/aameeting' className="helplink"> ATTEND A MEETING</Link>
+          <Link to='/atpresent' className="helplink"> APPLY TO PRESENT</Link>
          
-          <a href="atpresent" className="helplink">APPLY TO PRESENT</a>
+          {/* <a href="./atpresent" className="helplink">APPLY TO PRESENT</a> */}
           
         </div>
       </div>
