@@ -1,69 +1,95 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import chuck from '../assets/Chuck.png'
-import tom from '../assets/Tom.png'
-import scott from '../assets/Scott.png'
+import { useState } from 'react';
 import socialmedia from "../assets/SocialMediaIcons.png";
+
+
+import entrepreneur from '../assets/entrepreneur.jpg'
 const Home = () => {
+
+  const [email, setEmail] = useState('');
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
+  const [error, setError] = useState('');
+
+
+  // Function to handle form submission
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (email === '') {
+      setError('Email is required');
+      return;
+    }
+
+    // Perform further processing or submit the form data
+    // ...
+
+    // Reset the form fields
+    setEmail('');
+    setFirstName('');
+    setLastName('');
+    setError('');
+  };
+
+
   return (
-    <div className='home' >
-     <h3 className='head'>
-    OUR ORGANAIZERS
-     </h3>
-     {/*chuck */}
-     <div className='chuck'>
-      <div className='img'>
-      <img src={chuck} alt="chuck" />
-      </div>
-      <div className='details'>
-      <h2>
-          Charles "Chuck" kaucher
-        </h2>
-        <p>
-        Chuck has over 25 years experience in business including Big 4 experience as a CPA and in the financial markets as a private trader.
-Comfortable in C-suite and senior management engagement where client relations are critical to business development and strategic alliances.
-          </p>
+   <div className='home'>
+ <p className='homep'>The Entrepreneurial Hour (T.E.H.) is a “pay it forward” organization focused on helping entrepreneurs and startups succeed. The Entrepreneurial Hour holds weekly meetings where one founder/startup presents to a group of seasoned business leaders who offer friendly but candid advice.</p>
+<div className='content'>
+<img src={entrepreneur} alt="entrepreneur" className='image' />
 
-          <Link>LINKEDIN</Link>
-      </div>
+<div className='detail'>
+  <h2 className='hcontent'>
+  THE ENTREPRENEURIAL HOUR: A UNIQUE OPPORTUNITY
+  </h2>
+  <p className='hcontentp'>
+  We are a volunteer group of business leaders who offer advice to entrepreneurs.  We expect absolutely nothing in return. 
+  </p>
+  
+    <a href="https://web.archive.org/web/20230411052239/https://docs.google.com/forms/d/e/1FAIpQLSdgTEjC2_7EFl4CR8FShtx4NE6JtHsp7cnf3mwfo47wyUkDAQ/viewform?usp=sf_link" target='blank' className='present'> APPLY TO PRESENT</a>
+   
+ 
+</div>
+</div>
 
-     </div>
-
-     {/* tom */}
-     <div className='tom'>
-     <div className='details'>
-      <h2>
-          Tom Berger
-        </h2>
-        <p>
-        Tom has over 45 years in business, having led seven different companies as well as held the positions of a Company Officer/Board Member with several since 1990.  Tom is also a mentor to startups at Tech Alpharetta. Tom also has published hundreds of business articles to his website <Link>CXO-Atlas</Link>
-          </p>
-          <Link className='linkedin'>LINKEDIN</Link>
-      </div>
-      <div className='img'>
-      <img src={tom} alt="tom" />
-      </div>
-      
-     </div>
-    
-    {/* scott wold */}
-    <div className='scott'>
-      <div className='img'>
-      <img src={scott} alt="chuck" />
-      </div>
-      <div className='details'>
-      <h2>
-          Scott Wold
-        </h2>
-        <p>
-        Scott brings over 30 years of sales, marketing, business strategy, and executive leadership experience when mentoring founders of startups.  Scott has led three companies as well as sat on the Board for two companies.  Scott is also active with several non-profits including Boy Scouts of America, Rotary International, and Kiwanis International  
-          </p>
-
-          <Link>LINKEDIN</Link>
+<div className='form'>
+  <h3>
+  Find out about future meetings.
+  </h3>
+  <p>* indicates required</p>
+<form onSubmit={handleSubmit}>
+      <div>
+        <label>Email * :</label>
+        <input
+          type="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
+        {error && <span className='error'>{error}</span>}
       </div>
 
-     </div>
-     <footer className="footer">
+      <div>
+        <label>First Name:</label>
+        <input
+          type="text"
+          value={firstName}
+          onChange={(e) => setFirstName(e.target.value)}
+        />
+      </div>
+
+      <div>
+        <label>Last Name:</label>
+        <input
+          type="text"
+          value={lastName}
+          onChange={(e) => setLastName(e.target.value)}
+        />
+      </div>
+
+      <button className='submit' type="submit">Submit</button>
+    </form>
+</div>
+<footer className="footer footer1">
        
        copyright &copy; 2023 the enterpreneural hour all rightgs reserved
        
@@ -72,7 +98,7 @@ Comfortable in C-suite and senior management engagement where client relations a
       </div>
       
      </footer>
-    </div>
+   </div>
   )
 }
 

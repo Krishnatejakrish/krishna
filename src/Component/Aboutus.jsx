@@ -10,13 +10,7 @@ import socialmedia from "../assets/SocialMediaIcons.png";
 const Aboutus = () => {
   return (
     <div className="aboutus">
-      <p className="about_details">
-        The Entrepreneurial Hour (T.E.H.) is a “pay it forward” organization
-        focused on helping entrepreneurs and startups succeed. The
-        Entrepreneurial Hour holds weekly meetings where one founder/startup
-        presents to a group of seasoned business leaders who offer friendly but
-        candid advice.
-      </p>
+
       {/*chuck */}
       <div className="chuck">
         <div className="img">
@@ -31,8 +25,8 @@ const Aboutus = () => {
             where client relations are critical to business development and
             strategic alliances.
           </p>
-
-          <Link>LINKEDIN</Link>
+          <a href="https://www.linkedin.com/in/charleskaucher/" target="BLANK">LINKEDIN</a>
+          
         </div>
       </div>
 
@@ -47,7 +41,7 @@ const Aboutus = () => {
             Tech Alpharetta. Tom also has published hundreds of business
             articles to his website <Link>CXO-Atlas</Link>
           </p>
-          <Link className="linkedin">LINKEDIN</Link>
+          <a href="https://www.linkedin.com/in/tom-berger-cxo-atlas/" target="BLANK">LINKEDIN</a>
         </div>
         <div className="img">
           <img src={tom} alt="tom" />
@@ -70,7 +64,8 @@ const Aboutus = () => {
             International
           </p>
 
-          <Link>LINKEDIN</Link>
+          
+          <a href="https://www.linkedin.com/in/scottawold/" target="BLANK">LINKEDIN</a>
         </div>
       </div>
       {/* team */}
@@ -137,10 +132,22 @@ const Aboutus = () => {
               are engaged.
             </li>
           </p>
-          <button>LEARN MORE ABOUT TECH ALPHARETTA</button>
+          {/* <button>LEARN MORE ABOUT TECH ALPHARETTA</button> */}
+          <a className="learnmore" href=" https://techalpharetta.com/" target="blank">LEARN MORE ABOUT TECH ALPHARETTA</a>
         </div>
       </div>
-
+<div id="sdetails">
+  <h3>
+    Tech Alpharetta
+  </h3>
+ 
+ <div className="sdetails">
+<h4> Sponsor </h4>
+<h3>
+  EZInnovation 
+</h3>
+ </div>
+</div>
       <footer className="footer">
         copyright &copy; 2023 the enterpreneural hour all rightgs reserved
         <div>

@@ -3,21 +3,22 @@ import { Link } from 'react-router-dom'
 import socialmedia from "../assets/SocialMediaIcons.png";
 
 const Futuremeetings = () => {
-  const Attend_meeting = 'https://theentrepreneurialhour.com/attend-a-meeting-1'
+
+  
+
+
   return (
     <div className='attend'>
+      <h2>
+      The Entrepreneurial Hour - A Unique Opportunity
+      </h2>
       <p className='attendmeeting'>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis quod non ducimus incidunt ad voluptatibus quibusdam, consectetur cumque fugiat autem, laudantium dolorem, iusto temporibus asperiores repellendus? Id esse hic nisi, quasi optio qui a modi exercitationem dolore nesciunt libero nihil laboriosam omnis officiis, ex asperiores, maiores veritatis iste. Amet, voluptates.
+      Come join us for the  The Entrepreneurial Hour. It is held every Wednesday at 8 AM EDT virtually. This hour has no specific industry requirement, no minimum age, and no proof of success. Entrepreneurs at all stages from “dreamers'' to early-stage revenue-producing companies are welcome.
       </p>
       <div className='meetinglink'>
-      <Link>
-      {Attend_meeting}
-
+     <a href="https://web.archive.org/web/20221205075710/https://theentrepreneurialhour.com/attend-a-meeting-1" target='blank'>Attend meeting using this <b>link</b>
+</a>
       
-      </Link>
-      <span>
-      Attend meeting using this <b>ZOOM</b> link
-      </span>
       </div>
       <footer className="footer footer1">
        

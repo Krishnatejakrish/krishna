@@ -4,20 +4,28 @@ import socialmedia from "../assets/SocialMediaIcons.png";
 
 
 const Attendameeting = () => {
-  const Attend_meeting = 'https://theentrepreneurialhour.com/attend-a-meeting-1'
+  
   return (
     <div className='attend'>
       <p className='attendmeeting'>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis quod non ducimus incidunt ad voluptatibus quibusdam, consectetur cumque fugiat autem, laudantium dolorem, iusto temporibus asperiores repellendus? Id esse hic nisi, quasi optio qui a modi exercitationem dolore nesciunt libero nihil laboriosam omnis officiis, ex asperiores, maiores veritatis iste. Amet, voluptates.
-      </p>
-      <div className='meetinglink'>
-      <Link>
-      {Attend_meeting}
+      We meet every Wednesday at 8 AM. <br/> 
+You can attend in person at
+Tech Alpharetta • <br />
+2972 Webb Bridge Road, <br />
+Alpharetta, GA 30009
 
+
+
+      </p>
       
-      </Link>
+<b>
+  OR
+</b>
+
+      <div className='meetinglink'>
+      <a href="http://zoom.theentrepreneurialhour.com/" target='blank'>Attend meeting using this <b>ZOOM</b> link</a>
       <span>
-      Attend meeting using this <b>ZOOM</b> link
+      
       </span>
       </div>
       <footer className="footer footer1">

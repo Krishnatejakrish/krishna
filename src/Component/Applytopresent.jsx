@@ -11,9 +11,16 @@ const Applytopresent = () => {
  We are a volunteer group of business leaders who offer advice to entrepreneurs.  We expect absolutely nothing in return. 
 
  </p>
-      <button>
-      APPLY TO PRESENT
-      </button>
+      <div>
+      <span>
+      Please contact Chuck Kaucher to apply to present 
+      </span>
+      <a href="mailto:kaucher@cgki.com.">kaucher@cgki.com</a>
+      
+{/* Make the email address a link mailto: kaucher@cgki.com */}
+
+
+      </div>
 
       <footer className="footer footer1">
        
