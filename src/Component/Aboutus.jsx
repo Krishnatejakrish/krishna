@@ -86,8 +86,13 @@ const Aboutus = () => {
         </div>
       </div>
       {/* sponsers */}
+<<<<<<< HEAD
       <div className="sponsor sponsorimg">
         <div className="img ">
+=======
+      <div className="sponsor">
+        <div className="img sponsorimg">
+>>>>>>> 14ef7a13f70902fb97b891d91d62d5d39f546bf8
           <img src={sponsor} alt="sponsor" />
         </div>
         <div className="details">

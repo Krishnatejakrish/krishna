@@ -3,10 +3,14 @@ import { Link } from 'react-router-dom'
 import socialmedia from "../assets/SocialMediaIcons.png";
 
 const Futuremeetings = () => {
+<<<<<<< HEAD
 
   
 
 
+=======
+   const Attend_meeting = 'https://theentrepreneurialhour.com/attend-a-meeting-1'
+>>>>>>> 14ef7a13f70902fb97b891d91d62d5d39f546bf8
   return (
     <div className='attend'>
       <h2>
