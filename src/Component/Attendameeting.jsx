@@ -23,7 +23,7 @@ Alpharetta, GA 30009
 </b>
 
       <div className='meetinglink'>
-      <a href="http://zoom.theentrepreneurialhour.com/" target='blank'>Attend meeting using this <b>ZOOM</b> link</a>
+      <a href="http://zoom.theentrepreneurialhour.com/" target='blank' className='helplink'>Attend meeting using this ZOOM link</a>
       <span>
       
       </span>
