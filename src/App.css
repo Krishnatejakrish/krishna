@@ -124,6 +124,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: fit-content;
   }
   .check{
     background-color: rgb(114, 174, 23);
