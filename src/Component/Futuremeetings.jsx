@@ -18,7 +18,7 @@ const Futuremeetings = () => {
       <div className='meetinglink'>
      {/* <a href="https://web.archive.org/web/20221205075710/https://theentrepreneurialhour.com/attend-a-meeting-1" target='blank'>Attend meeting using this <b>link</b>
 </a> */}
-     <Link to='/aameeting' className='helplink'>Attend a future meeting</Link>
+     <Link to='/aameeting' className='helplink'>Attend a future meetings</Link>
       
       </div>
       <footer className="footer footer1">
