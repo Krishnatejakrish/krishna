@@ -74,7 +74,7 @@ const Howwehelp = () => {
     </div>
     <footer className="footer">
        
-    copyright &copy; 2023 the enterpreneural hour all rightgs reserved
+    copyright &copy; 2023 the enterpreneural hour all rights reserved
     
    <div>
    <img className="socialmedia" src={socialmedia} alt="social media"  />

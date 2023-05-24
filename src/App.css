@@ -90,7 +90,7 @@ a{
 }
 .homep{
     width: 100%;
-    margin-bottom: 20px;
+    margin: 30px 0px;
 }
 .hcontentp{
     margin-bottom: 20px;
@@ -119,6 +119,18 @@ h3{
   .submit{
     font-size: 15px;
     letter-spacing: 1px;
+  }
+  .subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .check{
+    background-color: rgb(114, 174, 23);
+    color: aliceblue;
+    border-radius: 100%;
+    padding: 4px;
+    margin-left: 2px;
   }
 /* About us */
  .head{
@@ -237,6 +249,7 @@ button:hover{
 .helpdetail{
     width: 100%;
     margin-bottom: 30px;
+    background-color: rgb(245,243,241);
     
 }
 .help{
@@ -244,28 +257,51 @@ button:hover{
     justify-content: center;
     align-items: start;
     width: 100%;
+    background-color: rgb(245,243,241);
 }
 .helpcontent{
     width: 90%;
+    background-color: rgb(245,243,241);
 }
-li{
+.helpcontent>h3{
+    background-color: rgb(245,243,241);
+}
+.helpcontent>li{
     margin-bottom: 10px;
+    background-color: rgb(245,243,241);
 }
 .links{
     display: flex;
     flex-direction: column;
+    /* background-color: rgb(245,243,241); */
 }
 .helplink{
     text-decoration: none;
     font-weight: 600;
     color: rgb(89, 87, 87);
     padding-bottom: 7px;
+    
+    background: rgb(224, 217, 211);
+    color: rgb(6, 6, 6);
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.helpcontent>.links{
+    background-color: rgb(245,243,241);
 }
 .helplink:hover{
     text-decoration: underline;
+    background: rgb(211, 206, 200);
+    color: rgb(6, 6, 6);
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 20px;
 }
 .feedback{
     margin-right: 20px;
+    background-color: rgb(245,243,241);
 }
 /* attendmeeting */
 

@@ -79,7 +79,8 @@ const Aboutus = () => {
             belief in "paying it forward" to help new entrepreneurs and
             companies succeed.
           </p>
-          <Link className="linkedin">ATTEND A FUTURE MEETING</Link>
+          {/* <Link className="linkedin">ATTEND A FUTURE MEETING</Link> */}
+          <a href="https://web.archive.org/web/20221205075710/https://theentrepreneurialhour.com/attend-a-meeting-1" target="blank">ATTEND A FUTURE MEETING</a>
         </div>
         <div className="img teamimg">
           <img src={team} alt="tom" />
@@ -91,7 +92,7 @@ const Aboutus = () => {
           <img src={sponsor} alt="sponsor" />
         </div>
         <div className="details">
-          <h2>Scott Wold</h2>
+          {/* <h2>Scott Wold</h2> */}
           <p>
             Tech Alpharetta, the first organization of its kind in Georgia, was
             established in 2012 by the City of Alpharetta, GA. Comprised of
@@ -137,19 +138,17 @@ const Aboutus = () => {
         </div>
       </div>
 <div id="sdetails">
-  <h3>
-    Tech Alpharetta
-  </h3>
+  
  
- <div className="sdetails">
+ {/* <div className="sdetails">
 <h4> Sponsor </h4>
 <h3>
   EZInnovation 
 </h3>
- </div>
+ </div> */}
 </div>
       <footer className="footer">
-        copyright &copy; 2023 the enterpreneural hour all rightgs reserved
+        copyright &copy; 2023 the enterpreneural hour all rights reserved
         <div>
           <img className="socialmedia" src={socialmedia} alt="social media" />
         </div>
